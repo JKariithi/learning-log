@@ -1,5 +1,6 @@
-<p>
-  <a href ="{% url 'learning_logs:index' %}">Learning Log</a>
-</p>
+<h1>
+  <a href ="{% url 'learning_logs:index' %}">Learning Log</a> - 
+  <a href = "{% url 'learning_logs:topics'%}">Topics</a>
+</h1>
 
 {%block content %}{% endblock content %}
